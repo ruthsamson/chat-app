@@ -1,0 +1,14 @@
+.log-out-button {
+    background-color: rgb(41, 111, 190);
+    color: whitesmoke;
+    padding: 1rem 5rem;
+    border-radius: 25px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.log-out-button:hover {
+    background-color: rgb(70, 117, 204);
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,28 @@
+body {
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('../css/images/background.jpeg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.reply-group {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-pic {
+    border-radius: 55px;
+    margin: 1em;
+
+}
+
+.reply {
+    background-color: rgb(41, 111, 190);
+    padding: 1em 2em;
+    border-radius: 25px;
+    color: whitesmoke;
+    margin: 1em;
+
+}

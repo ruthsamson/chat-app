@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {db, auth} from '../firebase'
 import firebase from 'firebase/compat/app';
 import { Form, FormControl, InputGroup, Button} from 'react-bootstrap'
+import '../css/SendMessage.css'
 
 function SendMessage() {
     const [msg, setMsg] = useState('')
@@ -20,10 +21,10 @@ function SendMessage() {
     }
   return (
     <div>
-        <Form onSubmit={sendMessage}>
+        <Form className= 'form' onSubmit={sendMessage}>
             <InputGroup>
-                <FormControl value={msg} type="text" onChange={(e) => {setMsg(e.target.value)}} placeholder='Message...'></FormControl>
-                <Button type="submit">Send</Button>
+                <FormControl className='input-box' value={msg} type="text" onChange={(e) => {setMsg(e.target.value)}} placeholder='Message...'></FormControl>
+                <Button className="send-button" type="submit">Send</Button>
             </InputGroup>
         </Form>
     </div>
