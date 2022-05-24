@@ -12,7 +12,7 @@ function LogIn() {
     }
   return (
     <div>
-      <img src={chatIcon} className='log-in-icon' />
+      <img src={chatIcon} alt='logo' className='log-in-icon' />
       <div className='log-in-container'>
           <Button className='log-in-button' onClick={signIn}>Sign In With Email</Button>
       </div>
