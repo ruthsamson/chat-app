@@ -6,7 +6,7 @@ import '../css/LogOut.css'
 function LogOut() {
   return (
     <div>
-        <Button className='log-out-button' onClick={() => auth.signOut()}>Sign Out</Button>
+          <Button className='log-out-button' onClick={() => auth.signOut()}>Sign Out</Button>
     </div>
   )
 }

@@ -11,16 +11,20 @@ function Chat() {
       setMessages(snapshot.docs.map((doc) => doc.data()))
     })
   }, [])
+
+
   return (
     <div>
-        <LogOut />
-        {messages.map(({id, text, photoURL}) => (
-          <div className='reply-group' key={id}>
-            <img src= {photoURL} alt="Profile pic" className='profile-pic' />
-            <p className='reply'>{text}</p>
-          </div>
-        ))}
-        <SendMessage />
+      <LogOut />
+      <div className='chat'>
+          {messages.map(({id, text, photoURL}) => (
+            <div className='reply-group' key={id}>
+              <img src= {photoURL} alt="Profile pic" className='profile-pic' />
+              <p className='reply'>{text}</p>
+            </div>
+          ))}
+          <SendMessage />
+        </div>
     </div>
   )
 }

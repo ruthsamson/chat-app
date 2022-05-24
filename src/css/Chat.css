@@ -1,15 +1,42 @@
 body {
-    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('../css/images/background.jpeg');
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(197, 36, 87, 0.8));
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
+}
+
+
+.chat::-webkit-scrollbar {
+    width: 2em;
+}
+
+.chat::-webkit-scrollbar-track {
+    background: rgb(51, 48, 48);
+    border-radius: 100vw;
+    margin-block: 0.5em;
+}
+
+.chat::-webkit-scrollbar-thumb {
+    background: rgb(81, 79, 79);
+    border: 0.25em solid rgb(116, 113, 113);
+    border-radius: 100vw;
+}
+.chat::-webkit-scrollbar-thumb:hover {
+    background: rgb(97, 91, 91);
+}
+
+
+.chat {
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .reply-group {
     display: flex;
     align-items: center;
-
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(33, 32, 32);
 }
 
 .profile-pic {

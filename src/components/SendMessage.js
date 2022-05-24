@@ -4,7 +4,7 @@ import firebase from 'firebase/compat/app';
 import { Form, FormControl, InputGroup, Button} from 'react-bootstrap'
 import '../css/SendMessage.css'
 
-function SendMessage() {
+function SendMessage(props) {
     const [msg, setMsg] = useState('')
 
     async function sendMessage(e){
@@ -20,7 +20,7 @@ function SendMessage() {
         setMsg('')
     }
   return (
-    <div>
+    <div className='send-section'>
         <Form className= 'form' onSubmit={sendMessage}>
             <InputGroup>
                 <FormControl className='input-box' value={msg} type="text" onChange={(e) => {setMsg(e.target.value)}} placeholder='Message...'></FormControl>

@@ -1,0 +1,33 @@
+body {
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(197, 36, 87, 0.8));
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.log-in-icon {
+    height: 300px;
+    width:300px;
+    display: flex;
+    margin: 6rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.log-in-button {
+    background-color: #000;
+    color: #f1f1f1;
+    padding: 1rem 5rem;
+    border-radius: 25px;
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+.log-in-button:hover {
+    background-color: rgb(26, 26, 27);
+    transform: scale(1.02);
+    transition: 0.3s ease-out;
+}
