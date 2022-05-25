@@ -34,7 +34,7 @@ body {
 .reply-group {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     background-color: rgb(33, 32, 32);
 }
@@ -52,4 +52,34 @@ body {
     color: whitesmoke;
     margin: 1em;
 
+}
+
+@media only screen and (max-width: 610px) {
+    .profile-pic {
+        width: 30%;
+    }
+
+    .reply {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .reply-group {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 343px) {
+    .reply-group {
+        width: 95%;
+    }
+
+    .profile-pic {
+        width: 25%;
+    }
+
+    .reply {
+        width: 25%;
+    }
 }

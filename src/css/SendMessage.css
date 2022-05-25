@@ -4,23 +4,23 @@
 }
 
 .send-section {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     background-color: #000;
 }
 
 .input-box {
-width: 70%;
-background-color: whitesmoke;
-padding: 1em 2em;
-border-radius: 25px;
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 1em 2em;
+    border-radius: 25px;
 }
 
 .send-button {
     background-color: rgba(225, 36, 96, 0.8);
     color: whitesmoke;
     padding: 1em 2em;
-    margin-left: 5px;
+    margin-left: 2rem;
     cursor: pointer;
     border: none;
     border-radius: 25px;
@@ -31,3 +31,37 @@ border-radius: 25px;
     transform: scale(1.02);
     transition: 0.3s ease-out;
 }
+
+@media only screen and (max-width: 1215px) {
+    .input-box {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .send-button {
+        display: flex;
+        margin:1rem auto;
+    }
+}
+
+
+@media only screen and (max-width: 449px) {
+    .send-section {
+        width: 90%;
+    }
+    
+    .input-box {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 343px) {
+    .send-section {
+        width: 95%;
+    }
+    
+    .input-box {
+        width: 70%;
+    }
+}
+
