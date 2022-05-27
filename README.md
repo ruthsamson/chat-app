@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# `README.md` - Chat App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💬 About the App
 
-## Available Scripts
+A chat application that authenticates users through email. Stores and updates entries using a database through Firebase. 
 
-In the project directory, you can run:
+## 📸 Project Screenshots or Demo Link
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📝 How to Use
 
-### `npm test`
+Download or clone this repository. You will need node and npm installed globally on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Cloning Repository: 
 
-### `npm run build`
+Open your terminal. Navigate to where you want to clone the repo, e.g.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd documents
+```  
+ 
+Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone <repo url>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate inside the repository with 
 
-### `npm run eject`
+```
+cd <repo title>
+``` 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Installation:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+``` 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To Run Test Suite:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm test
+``` 
 
-## Learn More
+To Start Server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+``` 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To Visit App:
 
-### Code Splitting
+### `localhost:3000` in web browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🔨 Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![React.js Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="https://logodix.com/logo/1858283.png" alt="Firebase badge" width="10%" align="center"/> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 🤔 Reflection
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This is a chat app that I created when I was learning how to use Firebase during my Advanced Full Stack Web Development Course. 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I learned how to connect to the Firestore database and authenticate users through various means such as email. 
