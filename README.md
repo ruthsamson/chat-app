@@ -4,8 +4,10 @@
 
 A chat application that authenticates users through email. Stores and updates entries using a database through Firebase. 
 
-## 📸 Project Screenshots or Demo Link
+## 📸 Project Screenshots
 
+<img width="800" alt="chat-app" src="https://user-images.githubusercontent.com/89995514/172221820-870cd95f-ff64-4538-afdd-62d583c1ee28.png">
+<img width="800" alt="chat-app-2" src="https://user-images.githubusercontent.com/89995514/172221834-bb841885-0592-4f1c-8f20-24faecfaae92.png">
 
 
 ## 📝 How to Use
