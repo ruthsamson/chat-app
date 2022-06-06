@@ -7,7 +7,7 @@ A chat application that authenticates users through email. Stores and updates en
 ## 📸 Project Screenshots
 
 <img width="800" alt="chat-app" src="https://user-images.githubusercontent.com/89995514/172221820-870cd95f-ff64-4538-afdd-62d583c1ee28.png">
-<img width="800" alt="chat-app-2" src="https://user-images.githubusercontent.com/89995514/172221834-bb841885-0592-4f1c-8f20-24faecfaae92.png">
+<img width="800" alt="chat-app-2" src="https://user-images.githubusercontent.com/89995514/172223116-3d889781-b7a4-488d-9e5f-9b9552783ac6.png">
 
 
 ## 📝 How to Use
